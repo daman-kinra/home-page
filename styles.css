@@ -18,15 +18,8 @@
 .left_cont {
   flex: 45%;
   padding-left: 3%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(3, 135, 209, 1),
-    rgba(3, 135, 209, 1)
-  );
-}
-.right_cont {
-  padding: 3%;
-  flex: 55%;
+  background: linear-gradient(0deg, rgba(3, 135, 209, 1), rgb(58, 134, 179)),
+    linear-gradient(to bottom, rgba(3, 135, 209, 1), #015584);
 }
 .logo img {
   width: 330px;
@@ -105,52 +98,164 @@ a {
 }
 .right_cont {
   position: relative;
+  flex: 55%;
 }
 .wave {
   position: absolute;
-  top: 0%;
   left: -16%;
+  top: 0%;
   height: 100%;
 }
 .wave img {
   height: 100%;
 }
-.right_content {
-  height: 100vh;
+.right_main_cont {
+  height: 100%;
   width: 100%;
+  position: relative;
+}
+.innercont {
+  display: flex;
+  height: 622px;
+  width: 546px;
+  position: relative;
+  top: 16%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
-.right_content .img1 {
+.img1 img {
   width: 191px;
-  /* margin-left: -37px; */
+  margin-left: 46px;
 }
-.right_content .img2 {
-  width: 234px;
-}
-.right_content .line {
+.img2 {
   width: 121px;
   display: flex;
   justify-content: center;
+  padding-left: 24px;
+  position: relative;
+  top: -51%;
 }
-.line {
-  margin-bottom: -50px;
+.img2 img {
+  position: absolute;
+  right: 49%;
+}
+.img3 img {
+  width: 234px;
+  margin-right: -77px;
+}
+.icons {
+  font-family: "myFonts";
+  font-size: 40px;
+}
+
+.title {
+  font-size: 9px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.analytics {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: -4%;
+  left: 13%;
+}
+.cards {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: -4%;
+  left: 29%;
+}
+.payments {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 4%;
+  left: 44%;
+}
+.loans {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 17%;
+  left: 49%;
+}
+.support {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 32%;
+  left: 49%;
+}
+.forex {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 6%;
+  left: 1%;
+}
+.investment {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 19%;
+  left: -3%;
+}
+.savings {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 34%;
+  left: 0%;
+}
+.rewards {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 45%;
+  left: 7%;
 }
 .bank_title {
   font-family: "Comic Sans MS", "Roboto", "Cambria", "lucida grande",
     "lucida sans", Geneva, "sans-serif", tahoma, helvetica, arial;
   font-size: 25px;
   color: #000;
+  position: absolute;
+  bottom: 8%;
+  width: 100%;
   text-align: center;
+  left: -17%;
 }
 .bank_title2 {
   font-family: "Comic Sans MS", "Roboto", "Cambria", "lucida grande",
     "lucida sans", Geneva, "sans-serif", tahoma, helvetica, arial;
   font-size: 25px;
   color: #000;
-  padding-left: 33px;
-}
-.boy_with_cards {
-  position: relative;
+  position: absolute;
+  bottom: 8%;
+  width: 70%;
+  text-align: center;
+  left: 54%;
 }
