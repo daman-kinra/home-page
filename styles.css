@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+@font-face {
+  font-family: "myfonts";
+  src: url(./static/onebanc_fonts.ttf);
+}
+.main_cont {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.left_cont {
+  flex: 45%;
+  padding-left: 3%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(3, 135, 209, 1),
+    rgba(3, 135, 209, 1)
+  );
+}
+.right_cont {
+  padding: 3%;
+  flex: 55%;
+}
+.logo img {
+  width: 330px;
+  margin-top: 33px;
+}
+.content {
+  padding-top: 32px;
+}
+.text p,
+.text span {
+  font-size: 50px;
+  line-height: 3.5rem;
+  color: white;
+}
+.description {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: white;
+  line-height: 1.6rem;
+}
+.email_box {
+  margin-top: 32px;
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(15, 82, 167);
+  padding: 12px;
+  padding-right: 7px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+}
+.email_box_cover {
+  min-height: 110px;
+}
+.qr_code {
+  margin-top: 28px;
+}
+.footer {
+  margin-top: 32px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+#inp_eml {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+}
+.input_field {
+  position: relative;
+  margin-top: 4px;
+}
+.send {
+  position: absolute;
+  height: 35px;
+  width: 60px;
+  right: 0%;
+  border: 0;
+  background: linear-gradient(to right, #00d1eb 0%, #00e8d7 100%);
+}
+.icon {
+  font-weight: normal;
+  font-size: 30px;
+  color: white;
+  margin-top: 3px;
+}
+.right_cont {
+  position: relative;
+}
+.wave {
+  position: absolute;
+  top: 0%;
+  left: -16%;
+  height: 100%;
+}
+.wave img {
+  height: 100%;
+}
+.right_content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.right_content .img1 {
+  width: 191px;
+  /* margin-left: -37px; */
+}
+.right_content .img2 {
+  width: 234px;
+}
+.right_content .line {
+  width: 121px;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  margin-bottom: -50px;
+}
+.bank_title {
+  font-family: "Comic Sans MS", "Roboto", "Cambria", "lucida grande",
+    "lucida sans", Geneva, "sans-serif", tahoma, helvetica, arial;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+.bank_title2 {
+  font-family: "Comic Sans MS", "Roboto", "Cambria", "lucida grande",
+    "lucida sans", Geneva, "sans-serif", tahoma, helvetica, arial;
+  font-size: 25px;
+  color: #000;
+  padding-left: 33px;
+}
+.boy_with_cards {
+  position: relative;
+}
