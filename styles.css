@@ -259,3 +259,131 @@ a {
   text-align: center;
   left: 54%;
 }
+.right_stroke img {
+  width: 95px;
+}
+.left_stroke img {
+  width: 95px;
+  transform: rotateY(180deg);
+}
+.left_stroke {
+  position: absolute;
+
+  top: 8%;
+  left: 89%;
+}
+.right_stroke {
+  position: absolute;
+  top: 8%;
+  left: 113%;
+}
+.left_small_stroke img {
+  width: 24px;
+  transform: rotateY(180deg);
+}
+.right_small_stroke img {
+  width: 24px;
+}
+.left_small_stroke {
+  position: absolute;
+  top: 1%;
+  right: -2%;
+}
+.right_small_stroke {
+  position: absolute;
+  top: 0%;
+  right: -13%;
+}
+.img3 .cards {
+  font-family: "myfonts";
+}
+.ricons {
+  font-family: "myFonts";
+  font-size: 35px;
+}
+.rtitles {
+  font-size: 9px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.rcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 23%;
+  right: -13%;
+}
+.rloans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 13%;
+  right: -8%;
+}
+.rpayments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 12%;
+  right: -18%;
+}
+.rrewards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 4%;
+  right: -3%;
+}
+.rsavings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 4%;
+  right: -13%;
+}
+.rsupport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 4%;
+  right: -22%;
+}
+.ranalytics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: -4%;
+  right: -27%;
+}
+.rforex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: -6%;
+  right: -13%;
+}
+.rinvestment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: -5%;
+  right: 2%;
+}
