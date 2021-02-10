@@ -25,6 +25,9 @@
   width: 330px;
   margin-top: 33px;
 }
+.sitting_man {
+  display: none;
+}
 .content {
   padding-top: 32px;
 }
@@ -114,6 +117,9 @@ a {
   width: 100%;
   position: relative;
 }
+.hiddenline {
+  display: none;
+}
 .innercont {
   display: flex;
   height: 622px;
@@ -164,6 +170,7 @@ a {
   align-items: center;
   top: -4%;
   left: 13%;
+  animation: animateanalytics 1.5s linear;
 }
 .cards {
   display: flex;
@@ -173,6 +180,7 @@ a {
   align-items: center;
   top: -4%;
   left: 29%;
+  animation: animatecards 1.5s linear;
 }
 .payments {
   display: flex;
@@ -182,6 +190,7 @@ a {
   align-items: center;
   top: 4%;
   left: 44%;
+  animation: animatepayment 1.5s linear;
 }
 .loans {
   display: flex;
@@ -191,6 +200,7 @@ a {
   align-items: center;
   top: 17%;
   left: 49%;
+  animation: animateloan 1.5s linear;
 }
 .support {
   display: flex;
@@ -200,6 +210,7 @@ a {
   align-items: center;
   top: 32%;
   left: 49%;
+  animation: animatesupport 1.5s linear;
 }
 .forex {
   display: flex;
@@ -209,6 +220,7 @@ a {
   align-items: center;
   top: 6%;
   left: 1%;
+  animation: animateforex 1.5s linear;
 }
 .investment {
   display: flex;
@@ -218,6 +230,7 @@ a {
   align-items: center;
   top: 19%;
   left: -3%;
+  animation: animateinvestment 1.5s linear;
 }
 .savings {
   display: flex;
@@ -227,6 +240,7 @@ a {
   align-items: center;
   top: 34%;
   left: 0%;
+  animation: animatesavings 1.5s linear;
 }
 .rewards {
   display: flex;
@@ -236,6 +250,7 @@ a {
   align-items: center;
   top: 45%;
   left: 7%;
+  animation: animaterewards 1.5s linear;
 }
 .bank_title {
   font-family: "Comic Sans MS", "Roboto", "Cambria", "lucida grande",
@@ -501,8 +516,376 @@ a {
     right: -13%;
   }
   from {
-    top: 23%;
+    top: 25%;
     right: -13%;
     opacity: 0;
+  }
+}
+
+@keyframes animaterewards {
+  to {
+    opacity: 1;
+    top: 45%;
+    left: 7%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animatesavings {
+  to {
+    opacity: 1;
+    top: 34%;
+    left: 0%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateinvestment {
+  to {
+    opacity: 1;
+    top: 19%;
+    left: -3%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animateforex {
+  to {
+    opacity: 1;
+    top: 6%;
+    left: 1%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animatesupport {
+  to {
+    opacity: 1;
+    top: 32%;
+    left: 49%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animateloan {
+  to {
+    opacity: 1;
+    top: 17%;
+    left: 49%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animatepayment {
+  to {
+    opacity: 1;
+    top: 4%;
+    left: 44%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animatecards {
+  to {
+    opacity: 1;
+    top: -4%;
+    left: 29%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@keyframes animateanalytics {
+  to {
+    opacity: 1;
+    top: -4%;
+    left: 13%;
+  }
+  from {
+    top: 14%;
+    left: 14%;
+    opacity: 0;
+  }
+}
+@media only screen and (min-width: 1414px) {
+  .wave {
+    left: -15%;
+  }
+}
+@media only screen and (min-width: 1509px) {
+  .wave {
+    left: -14%;
+  }
+}
+@media only screen and (min-width: 1609px) {
+  .wave {
+    left: -13%;
+  }
+  .left_cont {
+    padding-left: 6%;
+  }
+}
+@media only screen and (min-width: 1729px) {
+  .wave {
+    left: -12%;
+  }
+}
+@media only screen and (min-width: 1876px) {
+  .wave {
+    left: -11%;
+  }
+  .left_cont {
+    padding-left: 10%;
+  }
+}
+@media only screen and (min-width: 2045px) {
+  .wave {
+    left: -10%;
+  }
+  .left_cont {
+    padding-left: 12%;
+  }
+}
+@media only screen and (min-width: 2249px) {
+  .wave {
+    left: -9%;
+  }
+  .left_cont {
+    padding-left: 12%;
+  }
+}
+@media only screen and (min-width: 2503px) {
+  .wave {
+    left: -8%;
+  }
+  .left_cont {
+    padding-left: 12%;
+  }
+}
+@media only screen and (min-width: 2821px) {
+  .wave {
+    left: -7%;
+  }
+  .left_cont {
+    padding-left: 12%;
+  }
+}
+@media only screen and (min-width: 3214px) {
+  .wave {
+    left: -6%;
+  }
+  .left_cont {
+    padding-left: 12%;
+  }
+}
+@media only screen and (min-width: 3745px) {
+  .wave {
+    left: -5%;
+  }
+  .left_cont {
+    padding-left: 16%;
+  }
+}
+@media only screen and (min-height: 855px) {
+  .wave {
+    top: -3%;
+  }
+  .wave img {
+    height: 103%;
+  }
+}
+@media only screen and (min-height: 855px) {
+  .wave {
+    top: -4%;
+  }
+  .wave img {
+    height: 104%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .right_cont {
+    display: none;
+  }
+  .left_cont {
+    padding-left: 3%;
+  }
+  .sitting_man {
+    display: block;
+  }
+  .sitting_man img {
+    width: 320px;
+  }
+  .text_cover {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .sitting_man {
+    position: absolute;
+    right: 17%;
+  }
+  .hiddenline {
+    display: contents;
+    font-size: 15px;
+  }
+  .lineone,
+  .linetwo,
+  .thirdline {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .sitting_man {
+    right: 13%;
+    position: relative;
+  }
+  .sitting_man .icons {
+    color: white;
+    font-size: 35px;
+  }
+  .sitting_man .title {
+    color: white;
+  }
+  .scards {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 18%;
+    left: -18%;
+  }
+  .spayments {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 52%;
+    left: -17%;
+  }
+  .sloans {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 85%;
+    left: -6%;
+  }
+  .ssupport {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 107%;
+    left: 16%;
+  }
+  .sforex {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 55%;
+    left: 110%;
+  }
+  .sinvestment {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 87%;
+    left: 100%;
+  }
+  .ssavings {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 107%;
+    left: 76%;
+  }
+  .srewards {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 115%;
+    left: 44%;
+  }
+  .sanalytics {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 18%;
+    left: 112%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .sitting_man img {
+    width: 295px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .text_cover {
+    flex-direction: column;
+  }
+  .sitting_man img {
+    width: 220px;
+    margin-left: 10px;
+  }
+  .sitting_man {
+    width: 220px;
+    right: -13%;
+    top: 0%;
+    margin-top: 100px;
+  }
+  .email_box {
+    width: 350px;
+    font-size: 15px;
+  }
+  .footer div {
+    text-align: center;
+  }
+  .qr_code {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .text p,
+  .text span {
+    font-size: 35px;
+    line-height: 3rem;
   }
 }
