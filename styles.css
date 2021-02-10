@@ -314,6 +314,7 @@ a {
   position: absolute;
   top: 23%;
   right: -13%;
+  animation: animateRCard 1.5s linear;
 }
 .rloans {
   display: flex;
@@ -323,6 +324,7 @@ a {
   position: absolute;
   top: 13%;
   right: -8%;
+  animation: animateRLoan 1.5s linear;
 }
 .rpayments {
   display: flex;
@@ -332,6 +334,7 @@ a {
   position: absolute;
   top: 12%;
   right: -18%;
+  animation: animateRPayment 1.5s linear;
 }
 .rrewards {
   display: flex;
@@ -341,6 +344,7 @@ a {
   position: absolute;
   top: 4%;
   right: -3%;
+  animation: animateRReward 1.5s linear;
 }
 .rsavings {
   display: flex;
@@ -350,6 +354,7 @@ a {
   position: absolute;
   top: 4%;
   right: -13%;
+  animation: animateRSaving 1.5s linear;
 }
 .rsupport {
   display: flex;
@@ -359,6 +364,7 @@ a {
   position: absolute;
   top: 4%;
   right: -22%;
+  animation: animateRSupport 1.5s linear;
 }
 .ranalytics {
   display: flex;
@@ -368,6 +374,7 @@ a {
   position: absolute;
   top: -4%;
   right: -27%;
+  animation: animateRanalytics 1.5s linear;
 }
 .rforex {
   display: flex;
@@ -377,6 +384,7 @@ a {
   position: absolute;
   top: -6%;
   right: -13%;
+  animation: animateRforex 1.5s linear;
 }
 .rinvestment {
   display: flex;
@@ -386,4 +394,115 @@ a {
   position: absolute;
   top: -5%;
   right: 2%;
+  animation: animateRinvestment 1.5s linear;
+}
+@keyframes animateRinvestment {
+  to {
+    opacity: 1;
+    top: -5%;
+    right: 2%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateRforex {
+  to {
+    opacity: 1;
+    top: -6%;
+    right: -13%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+@keyframes animateRanalytics {
+  to {
+    opacity: 1;
+    top: -4%;
+    right: -27%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+@keyframes animateRSupport {
+  to {
+    opacity: 1;
+    top: 4%;
+    right: -22%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+@keyframes animateRSaving {
+  to {
+    opacity: 1;
+    top: 4%;
+    right: -13%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+@keyframes animateRReward {
+  to {
+    opacity: 1;
+    top: 4%;
+    right: -3%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+@keyframes animateRPayment {
+  to {
+    opacity: 1;
+    top: 12%;
+    right: -18%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+@keyframes animateRLoan {
+  to {
+    opacity: 1;
+    top: 13%;
+    right: -8%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateRCard {
+  to {
+    opacity: 1;
+    top: 23%;
+    right: -13%;
+  }
+  from {
+    top: 23%;
+    right: -13%;
+    opacity: 0;
+  }
 }
